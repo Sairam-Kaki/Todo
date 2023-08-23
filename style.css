@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.task-heading {
+    margin-top: 12%;
+}
+
+.search-container {
+    float: right;
+}
+
+#search-box {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid rgb(85, 182, 82);
+}
+
+.search-container button {
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.submit{
+    margin-top: -2px;
+    margin-left: -5px;
+}
+
+#clear{
+    float: right;
+    margin-top: 8px;
+}
+
+.add-btn {
+    float: right;
+    margin-right: 1%;
+    font-size: large;
+    font-weight: bolder;
+    width: 35px;
+}
+
+#new-task{
+    width:max-content;
+    margin-left: auto;
+}
+
+.task {
+    width: 98%;
+    left: 1%;
+    max-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tick-box {
+    height: fit-content;
+}
+
+.task-name {
+    min-width: 70%;
+    position: relative;
+    top: 4px;
+}
+
+.progress {
+    background-color: inherit;
+    height: fit-content;
+    width: auto;
+    position: relative;
+    bottom: 7px;
+}
